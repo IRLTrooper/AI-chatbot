@@ -31,19 +31,20 @@ export default function Home() {
         className="w-full flex flex-row gap-2 items-center h-full"
       >
 
-      <input
-        type="text"
-        placeholder="ask something. . ."
-        value={input}
-        onChange={handleInputChange}
-        className="border-b border-dashed outline-none w-full px-4 py-2 text-[#0842A0ff] text-right focus:placeholder-transparent"
-        />
-
       <button 
         type="submit"
         className="rounded-full shadow-md border flex flex-row">
-          <Send className="p-3 h-10 w-10 stroke-stone-500 "/>
+          <Send className="p-3 h-10 w-10 stroke-blue-500 "/>
       </button>
+
+      <input
+        type="text"
+        placeholder="beskriv produktet her"
+        value={input}
+        onChange={handleInputChange}
+        className="border-b border-dashed outline-none w-full px-4 py-2 text-[#0842A0ff] text-left focus:placeholder-transparent"
+        />
+
 
     </form>
     )
