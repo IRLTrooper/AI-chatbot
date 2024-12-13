@@ -15,7 +15,7 @@ To run this project locally, follow these steps:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/Nikolas-Vardeberg/chatbot
+git clone https://github.com/IRLTrooper/AI-chatbot
 ```
 # Npm install
 
